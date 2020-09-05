@@ -13,6 +13,5 @@
   #Install Surge 
 - name: Install Surge 
   run: npm install --global surge
-  #Deploy 
-  -name: Deploy React App to Surge
-   run: surge ./build first_project01.surge.sh --token ${{PROJECT01_SURGE_TOKEN}}
+- name: Deploy React App to  Surge
+  run: surge ./build first_project01.surge.sh --token ${{PROJECT01_SURGE_TOKEN}}
